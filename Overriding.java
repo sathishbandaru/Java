@@ -5,7 +5,7 @@ class A{
 }
 class B extends A{
     public void show(){
-        System.out.println("now in A");
+        System.out.println("now in B");
     }
 }
 
