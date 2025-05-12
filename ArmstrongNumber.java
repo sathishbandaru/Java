@@ -9,10 +9,7 @@ public class ArmstrongNumber {
             sum += Math.pow(digit,3);
             n = n/10;
         }
-        if ((int)sum == temp)
-            return true;
-        else
-            return false;
+        return (int)sum == temp;
     }
 
     public static void main(String[] args) {
