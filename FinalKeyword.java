@@ -1,5 +1,6 @@
 public class FinalKeyword {
     public static void main(String[] args) {
+        @SuppressWarnings("unused")
         final int x = 200;
         try { 
             // x = 300; //error: cannot assign a value to final variable x
